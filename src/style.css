@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  display: grid;
+  grid-template-rows: 132px 1fr 52px;
+  grid-template-columns: 147px 1fr 60px;
+  grid-template-areas:
+    'aside header ...'
+    'aside main ...'
+    '... footer ...';
+}
+
+.app-header {
+  grid-area: header;
+}
+
+.app-aside {
+  grid-area: aside;
+}
+
+.app-main {
+  grid-area: main;
+}
+
+.app-footer {
+  grid-area: footer;
+}
