@@ -5,11 +5,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      salmon: {
-        100: '#FF9185',
-        200: '#F04C39',
-      }
+    extend: {
+      colors: {
+        salmon: {
+          50: '#FCDCD9',
+          100: '#FF9185',
+          200: '#F04C39',
+        }
+      },
     },
   },
   plugins: [],
