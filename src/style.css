@@ -7,7 +7,7 @@ body {
   grid-template-rows: 132px 1fr 52px;
   grid-template-columns: 147px 1fr 60px;
   grid-template-areas:
-    'aside header ...'
+    '... header ...'
     'aside main ...'
     '... footer ...';
 }
