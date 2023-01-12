@@ -16,6 +16,7 @@ module.exports = {
         text: {
           dark: '#1E1D2B',
           light: '#F6F6F6',
+          darkMuted: '#8A8A8A',
           muted: '#878787',
         }
       },
