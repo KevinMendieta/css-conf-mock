@@ -11,6 +11,11 @@ module.exports = {
           50: '#FCDCD9',
           100: '#FF9185',
           200: '#F04C39',
+        },
+        text: {
+          dark: '#1E1D2B',
+          light: '#F6F6F6',
+          muted: '#878787',
         }
       },
     },
