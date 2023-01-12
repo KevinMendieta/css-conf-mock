@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         salmon: {
+          10: '#F7EFEE',
           50: '#FCDCD9',
           100: '#FF9185',
           200: '#F04C39',
