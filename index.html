@@ -99,7 +99,117 @@
     <section class="border-2 border-black col-span-2">talks</section>
     <section class="border-2 border-black">code</section>
     <section class="border-2 border-black row-span-2">chat</section>
-    <section class="border-2 border-black col-span-3">speakers</section>
+    <section class="flex flex-col gap-y-4 col-span-3">
+      <div class="flex justify-between">
+        <h2 class="text-text-darkMuted text-2xl font-bold">Speakers</h2>
+        <ul class="flex gap-x-8 items-center">
+          <li>
+            <button>
+              <h3 class="text-salmon-200 font-semibold text-sm">All</h3>
+            </button>
+          </li>
+          <li>
+            <button>
+              <h3 class="text-text-muted font-semibold text-sm">Following</h3>
+            </button>
+          </li>
+          <li>
+            <button>
+              <h3 class="text-text-muted font-semibold text-sm">Latest</h3>
+            </button>
+          </li>
+          <li>
+            <button>
+              <h3 class="text-text-muted font-semibold text-sm">Popular</h3>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <ul class="flex justify-between items-center">
+        <li class="w-[160px] h-[204px]">
+          <article class="bg-[url('/speakers/speaker1.png')] rounded-3xl w-full h-full flex items-end">
+            <div class="w-full h-[54px] flex justify-evenly items-center bg-black/50 rounded-b-3xl">
+              <div class="flex flex-col">
+                <h3 class="text-white font-semibold text-xs">Joseph R.</h3>
+                <p class="text-white font-normal text-xs">CEO at drove</p>
+              </div>
+              <button
+                class="rounded-full bg-white w-5 h-5 flex items-center justify-center hover:opacity-80 transition-colors">
+                <picture>
+                  <img src="/icons/heart.svg" alt="like button">
+                </picture>
+              </button>
+            </div>
+
+          </article>
+        </li>
+        <li class="w-[160px] h-[204px]">
+          <article class="bg-[url('/speakers/speaker2.png')] rounded-3xl w-full h-full flex items-end">
+            <div class="w-full h-[54px] flex justify-evenly items-center bg-black/50 rounded-b-3xl">
+              <div class="flex flex-col">
+                <h3 class="text-white font-semibold text-xs">Alma B.</h3>
+                <p class="text-white font-normal text-xs">Head of UI at KND</p>
+              </div>
+              <button
+                class="rounded-full bg-white w-5 h-5 flex items-center justify-center hover:opacity-80 transition-colors">
+                <picture>
+                  <img src="/icons/heart.svg" alt="like button">
+                </picture>
+              </button>
+            </div>
+          </article>
+        </li>
+        <li class="w-[160px] h-[204px]">
+          <article class="bg-[url('/speakers/speaker3.png')] rounded-3xl w-full h-full flex items-end">
+            <div class="w-full h-[54px] flex justify-evenly items-center bg-black/50 rounded-b-3xl">
+              <div class="flex flex-col">
+                <h3 class="text-white font-semibold text-xs">Maha P.</h3>
+                <p class="text-white font-normal text-xs">Designer at Jupr</p>
+              </div>
+              <button
+                class="rounded-full bg-white w-5 h-5 flex items-center justify-center hover:opacity-80 transition-colors">
+                <picture>
+                  <img src="/icons/heart.svg" alt="like button">
+                </picture>
+              </button>
+            </div>
+
+          </article>
+        </li>
+        <li class="w-[160px] h-[204px]">
+          <article class="bg-[url('/speakers/speaker4.png')] rounded-3xl w-full h-full flex items-end">
+            <div class="w-full h-[54px] flex justify-evenly items-center bg-black/50 rounded-b-3xl">
+              <div class="flex flex-col">
+                <h3 class="text-white font-semibold text-xs">Mia P.</h3>
+                <p class="text-white font-normal text-xs">CTO at WS</p>
+              </div>
+              <button
+                class="rounded-full bg-white w-5 h-5 flex items-center justify-center hover:opacity-80 transition-colors">
+                <picture>
+                  <img src="/icons/heart.svg" alt="like button">
+                </picture>
+              </button>
+            </div>
+          </article>
+        </li>
+        <li class="w-[160px] h-[204px]">
+          <article class="bg-[url('/speakers/speaker5.png')] rounded-3xl w-full h-full flex items-end">
+            <div class="w-full h-[54px] flex justify-evenly items-center bg-black/50 rounded-b-3xl">
+              <div class="flex flex-col">
+                <h3 class="text-white font-semibold text-xs">Luke R.</h3>
+                <p class="text-white font-normal text-xs">Designer at movo</p>
+              </div>
+              <button
+                class="rounded-full bg-white w-5 h-5 flex items-center justify-center hover:opacity-80 transition-colors">
+                <picture>
+                  <img src="/icons/heart.svg" alt="like button">
+                </picture>
+              </button>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </section>
   </main>
   <footer class="app-footer flex items-center justify-around">
     <h3 class="text-text-dark">Made with ❤️ by @KevinMendieta.</h3>
