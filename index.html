@@ -95,10 +95,108 @@
       </ul>
     </section>
   </aside>
-  <main class="app-main bg-salmon-10 rounded-3xl p-8 grid grid-rows-2 grid-cols-4 gap-8">
+  <main class="app-main bg-white rounded-3xl p-8 grid grid-rows-2 grid-cols-4 gap-8">
     <section class="border-2 border-black col-span-2">talks</section>
     <section class="border-2 border-black">code</section>
-    <section class="border-2 border-black row-span-2">chat</section>
+    <section class="border-2 border-bg-mediumDark row-span-2 rounded-3xl p-8">
+      <div class="flex flex-col gap-y-6 h-full">
+        <div class="flex justify-between items-center">
+          <h2 class="text-black font-bold text-2xl">Chat</h2>
+          <span class="flex items-center gap-x-3">
+            <h3 class="text-salmon-200 font-semibold text-lg">Live</h3>
+            <picture><img src="/icons/live.svg" alt="live icon"></picture>
+          </span>
+        </div>
+        <div class="flex flex-col justify-between h-full">
+          <ul class="flex flex-col gap-2">
+            <li class="bg-bg-light rounded-xl p-3 relative">
+              <article class="flex gap-x-3">
+                <picture>
+                  <img src="/assets/profile2.png" alt="profile img">
+                </picture>
+                <div class="flex flex-col">
+                  <h3 class="text-black font-semibold text-sm">Ella P.</h3>
+                  <p class="text-black font-normal text-xs">Esta bien cool</p>
+                </div>
+              </article>
+              <p class="absolute right-2 bottom-2 text-text-muted font-light text-xs">9:05 a.m.</p>
+            </li>
+            <li class="bg-bg-light rounded-xl p-3 relative">
+              <article class="flex gap-x-3">
+                <picture>
+                  <img src="/assets/profile3.png" alt="profile img">
+                </picture>
+                <div class="flex flex-col">
+                  <h3 class="text-black font-semibold text-sm">Mon H.</h3>
+                  <p class="text-black font-normal text-xs">x2000</p>
+                </div>
+              </article>
+              <p class="absolute right-2 bottom-2 text-text-muted font-light text-xs">9:11 a.m.</p>
+            </li>
+            <li class="bg-bg-mediumLight rounded-xl p-3 relative">
+              <article class="flex gap-x-3">
+                <picture>
+                  <img src="/assets/profile1.png" alt="profile img">
+                </picture>
+                <div class="flex flex-col">
+                  <h3 class="text-black font-semibold text-sm">Maria R.</h3>
+                  <p class="text-black font-normal text-xs">100 /10</p>
+                </div>
+              </article>
+              <p class="absolute right-2 bottom-2 text-text-muted font-light text-xs">9:32 a.m.</p>
+            </li>
+            <li class="bg-bg-light rounded-xl p-3 relative">
+              <article class="flex gap-x-3">
+                <picture>
+                  <img src="/assets/profile4.png" alt="profile img">
+                </picture>
+                <div class="flex flex-col">
+                  <h3 class="text-black font-semibold text-sm">Carlos M.</h3>
+                  <p class="text-black font-normal text-xs">Awesome</p>
+                </div>
+              </article>
+              <p class="absolute right-2 bottom-2 text-text-muted font-light text-xs">9:46 a.m.</p>
+            </li>
+            <li class="bg-bg-mediumLight rounded-xl p-4 relative">
+              <article class="flex gap-x-3">
+                <picture>
+                  <img src="/assets/profile1.png" alt="profile img">
+                </picture>
+                <div class="flex flex-col">
+                  <h3 class="text-black font-semibold text-sm">Maria R.</h3>
+                  <p class="text-black font-normal text-xs">Alguien de Colombia?</p>
+                </div>
+              </article>
+              <p class="absolute right-2 bottom-2 text-text-muted font-light text-xs">10:00 a.m.</p>
+            </li>
+          </ul>
+          <div class="flex flex-col gap-y-5">
+            <textarea name="" id="" placeholder="Write something..."
+              class="w-full h-[78px] rounded-2xl border-2 border-black/20 p-4 resize-none"></textarea>
+            <div class="w-full flex justify-between items-center">
+              <div class="flex gap-x-5">
+                <button>
+                  <picture>
+                    <img src="/icons/smile.svg" alt="emoji button">
+                  </picture>
+                </button>
+                <button>
+                  <picture>
+                    <img src="/icons/clip.svg" alt="attach button">
+                  </picture>
+                </button>
+              </div>
+              <button
+                class="flex items-center justify-center bg-salmon-200 rounded-full w-12 h-12 hover:bg-salmon-100 transition-colors">
+                <picture>
+                  <img src="/icons/arrow.svg" alt="send button">
+                </picture>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="flex flex-col gap-y-4 col-span-3">
       <div class="flex justify-between">
         <h2 class="text-text-darkMuted text-2xl font-bold">Speakers</h2>
