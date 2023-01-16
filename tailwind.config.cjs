@@ -24,6 +24,7 @@ module.exports = {
           light: '#F6F6F6',
           mediumDark: '#8A8A8A',
           mediumLight: '#E6F1F1',
+          muted: '#62616B',
         },
       },
     },

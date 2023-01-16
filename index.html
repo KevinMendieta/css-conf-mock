@@ -9,7 +9,7 @@
   <title>CSS Conf</title>
 </head>
 
-<body class="h-screen w-screen bg-gradient-to-b from-salmon-200 to-salmon-100">
+<body class="min-h-screen min-w-screen bg-gradient-to-b from-salmon-200 to-salmon-100">
   <header class="app-header flex justify-between pt-12 pb-8">
     <section class="flex items-center gap-x-14">
       <a href="/">
@@ -95,10 +95,27 @@
       </ul>
     </section>
   </aside>
-  <main class="app-main bg-white rounded-3xl p-8 grid grid-rows-2 grid-cols-4 gap-8">
-    <section class="border-2 border-black col-span-2">talks</section>
-    <section class="border-2 border-black">code</section>
-    <section class="border-2 border-bg-mediumDark row-span-2 rounded-3xl p-8">
+  <main class="app-main bg-white rounded-3xl p-8 grid grid-rows-3 grid-cols-4 gap-8">
+    <section class="border-2 border-black row-span-2 col-span-2">talks</section>
+    <section class="rounded-3xl bg-bg-dark row-span-2 p-8 flex flex-col gap-y-7">
+      <div class="flex justify-between items-center">
+        <h2 class="text-salmon-100 font-bold text-lg">&lt;/&gt;</h2>
+        <div class="flex gap-x-2">
+          <picture><img src="/assets/profile1.png" alt="profile icon"></picture>
+          <button>
+            <picture><img src="/icons/collapse.svg" alt="collapse button"></picture>
+          </button>
+        </div>
+      </div>
+      <article class="flex flex-col justify-between h-full">
+        <picture><img src="/assets/snippet.png" alt="code snippet"></picture>
+        <div class="flex gap-x-2">
+          <p class="text-white p-1 pl-3 pr-3 bg-bg-muted rounded-md">.html</p>
+          <p class="text-white p-1 pl-3 pr-3 bg-bg-muted rounded-md">.css</p>
+        </div>
+      </article>
+    </section>
+    <section class="border-2 border-bg-mediumDark row-span-3 rounded-3xl p-8">
       <div class="flex flex-col gap-y-6 h-full">
         <div class="flex justify-between items-center">
           <h2 class="text-black font-bold text-2xl">Chat</h2>
@@ -197,7 +214,7 @@
         </div>
       </div>
     </section>
-    <section class="flex flex-col gap-y-4 col-span-3">
+    <section class="flex flex-col gap-y-4 row-span-1 col-span-3">
       <div class="flex justify-between">
         <h2 class="text-text-darkMuted text-2xl font-bold">Speakers</h2>
         <ul class="flex gap-x-8 items-center">
